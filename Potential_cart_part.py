@@ -23,7 +23,7 @@ z1 = -4
 z2 = 4
 a1 = 1e-5
 a2 = 5
-Xi = -10.0 #To avoid zero in X and thus avoid singularities
+Xi = -10.0 
 Xf = 10
 Yi = -10
 Yf = 10.0
@@ -66,7 +66,7 @@ nb_pt_X = 256
 nb_pt_Y = 256 
 nb_pt_Z = 256
 
-dX = (Xf-Xi)/(nb_pt_X-1)  #We only construct half of the X-axis
+dX = (Xf-Xi)/(nb_pt_X-1)  
 dY = (Yf-Yi)/(nb_pt_Y-1)
 dZ = (Zf-Zi)/(nb_pt_Z-1)
 
@@ -227,16 +227,3 @@ if proc == 0:
 '''
 END
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
